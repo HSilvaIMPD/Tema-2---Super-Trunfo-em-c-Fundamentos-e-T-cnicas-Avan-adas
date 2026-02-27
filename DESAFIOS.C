@@ -32,12 +32,12 @@ int main() {
 
     // DADOS DA CARTA 1
 
-    printf("=== CADASTRO CARTA 1 ===\n");
+    printf("CADASTRO CARTA 1\n");
 
-    printf("Estado (A-H): ");
+    printf("Estado (A-H) (apenas 1 letra): ");
     scanf(" %c", &estado1);
 
-    printf("Codigo: ");
+    printf("Codigo (Ex A01): ");
     scanf("%s", codigo1);
 
     printf("Nome da cidade (sem espaco): ");
@@ -59,12 +59,12 @@ int main() {
 
     // DADOS DA CARTA 2
 
-    printf("\n=== CADASTRO CARTA 2 ===\n");
+    printf("CADASTRO CARTA 2\n");
 
-    printf("Estado (A-H): ");
+    printf("Estado (A-H)(apenas 1 letra): ");
     scanf(" %c", &estado2);
 
-    printf("Codigo: ");
+    printf("Codigo (Ex A02): ");
     scanf("%s", codigo2);
 
     printf("Nome da cidade (sem espaco): ");
@@ -102,7 +102,7 @@ int main() {
 
     // COMPARACAO
 
-    printf("\nRESULTADO DAS COMPARACOES\n");
+    printf("RESULTADO DAS COMPARACOES\n");
 
     // População
     if (populacao1 > populacao2)
